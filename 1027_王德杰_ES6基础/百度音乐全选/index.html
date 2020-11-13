@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <section id="wrap">
+      <h2 class="title">百度音乐榜单</h2>
+      <ul id="list">
+        <li>
+          <input type="checkbox" class="check" />
+          <span>第一条信息</span>
+          <a href="javascript:;" class="collect">收藏</a>
+          <a href="javascript:;" class="cancelCollect">取消收藏</a>
+          <a href="javascript:;" class="remove">删除</a>
+        </li>
+      </ul>
+      <footer class="footer">
+        <label><input type="checkbox" id="checkAll" />全选/全不选</label>
+        <a href="javascript:;" id="remove">删除</a>
+        <input type="text" id="newInfo" />
+        <a href="javascript:;" id="add">添加</a>
+      </footer>
+    </section>
+    <script>
+      {
+        let data = [
+          {
+            id: 1,
+            title: "残酷月光 - 费启鸣",
+            checked: false,
+            collect: true,
+          },
+          {
+            id: 2,
+            title: "兄弟 - 艾热",
+            checked: true,
+            collect: false,
+          },
+          {
+            id: 3,
+            title: "毕生 - 夏增祥",
+            checked: false,
+            collect: true,
+          },
+          {
+            id: 4,
+            title: "公子向北去 - 李春花",
+            checked: false,
+            collect: false,
+          },
+          {
+            id: 5,
+            title: "战场 - 沙漠五子",
+            checked: true,
+            collect: false, //是否收藏 true 收藏 false 没有收藏
+          },
+        ];
+
+        // 数据驱动；
+        function renderData(data) {
+          // 通过数据组装结构；
+          // 清空默认的数据
+          document.querySelector("#list").innerHTML = "";
+          data.forEach((item) => {
+            console.log(item);
+            let li = document.createElement("li");
+            li.innerHTML = `<input type="checkbox" class="check" ${
+              item.checked ? "checked" : ""
+            } />
+            <span>${item.title}</span>
+            ${
+              item.collect
+                ? '<a href="javascript:;" class="cancelCollect">取消收藏</a>'
+                : ' <a href="javascript:;" class="collect">收藏</a>'
+            }
+            <a href="javascript:;" class="remove">删除</a>`;
+            document.querySelector("#list").appendChild(li);
+          });
+          let isCheckAll = data.every((item) => item.checked);
+          document.querySelector("#checkAll").checked = isCheckAll;
+          addListEvent();
+        }
+        renderData(data);
+
+        function addListEvent() {
+          let lis = document.querySelectorAll("li");
+          lis.forEach((li, key) => {
+            li.addEventListener("click", (e) => {
+              switch (e.target.className) {
+                case "check":
+                  data[key].checked = e.target.checked;
+                  break;
+                case "collect":
+                  console.log("collect");
+                  data[key].collect = true;
+                  break;
+                case "cancelCollect":
+                  console.log("cancelCollect");
+                  data[key].collect = false;
+                  break;
+                case "remove":
+                  console.log("remove");
+                  data.splice(key, 1);
+                  break;
+              }
+              renderData(data);
+            });
+          });
+        }
+
+        addOtherEvent();  // 注册列表之外的其他事件
+        function addOtherEvent() {
+          // 注册全选事件；
+          document.querySelector("#checkAll").onclick = function () {
+            data.forEach((item) => {
+              item.checked = this.checked;
+            });
+            renderData(data);
+          };
+
+          // 删除指定；
+          document.querySelector("#remove").onclick = function () {
+            data = data.filter((item) => item.checked === false);
+            renderData(data);
+          };
+          // 作业：在老师代码基础上实现添加功能。（先操作数据--》视图）;
+          // 1. 点击添加后添加新歌
+          document.querySelector("#add").onclick = addNewSong;
+          // 2. 输入后回车也可添加新歌
+          document
+            .querySelector("#newInfo")
+            .addEventListener("keydown", (e) => {
+              if (e.key == "Enter") {
+                addNewSong();
+              }
+            });
+        }
+
+        function addNewSong() {
+          // 获取uuid
+          function getUuid() {
+            var temp_url = URL.createObjectURL(new Blob());
+            var uuid = temp_url.toString();
+            URL.revokeObjectURL(temp_url);
+            return uuid.substr(uuid.lastIndexOf("/") + 1);
+          }
+          let inputElem =  document.querySelector("#newInfo");
+          let songName =inputElem.value;
+          if (songName !== undefined && songName !== "") {
+            let song = {
+              id: getUuid(),
+              title: songName,
+              checked: false,
+              collect: false,
+            };
+            data.push(song);
+            renderData(data);
+            // 添加成功后完后清空输入框
+            inputElem.value = "";
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
