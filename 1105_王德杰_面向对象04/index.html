@@ -88,7 +88,9 @@ $("div").click(()=>{
 // $("div").css({"background":"yellow","width":300,"opacity":.5});
 // 实现animate动画,不基于框架库 
 $("button").on("click",function(){
-    $("div").animate({width:"200px", height:"200px"});
+    $("div").animate({width:"200px", height:"50px"}, function(){
+        console.log("动画执行完毕")
+    });
 })
 
 </script>

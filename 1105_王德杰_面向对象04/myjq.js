@@ -104,37 +104,21 @@ class Jq {
   }
 
   // 对外调用的接口
-  animate(prop, speed, easing, callback) {
-    //1. 借鉴jQuery实现原理，将参数转成配置写法, 不用担心少参数，也不用担心参数顺序
-    let optall = {
-      speed: speed || 3,
-      easing: easing || "swing",
-      callback: callback || function () {},
-    };
-
+  animate(...args) {
     // 2. 具体实现动画的方法不作为接口暴露，因此使用对象外的Animation方法
     for (let i = 0; i < this.length; i++) {
-      doAnimation(this.eq(i), Object.assign({}, prop), optall);
+      this[i].style.transition = "all 1s";
+      if(typeof args[args.length-1] === "function"){
+        this[i].addEventListener("transitionend", args[args.length-1]);
+      }
+      for(let key in args[0]){
+        this.setStyle(this[i], key, args[0][key]);
+
+      }
     }
   }
 }
 
-function doAnimation(originProp, prop, optall) {
-  for (let styleName in prop) {
-    let oldValue = parseInt(this.getStyle(this.eq(0), styleName));
-    this.setStyle(this.eq(0), styleName, oldValue + 5);
-    let newValue = parseInt(this.getStyle(this.eq(0), styleName));
-    let stopValue = parseInt(prop[styleName]);
-    if (newValue <= stopValue) {
-      // 实现动画的方法使用h5提供的专门解决动画更新的API，由浏览器自动以最合适的频率刷新动画
-      var c = requestAnimationFrame(
-        doAnimation.bind(this, originProp, prop, optall)
-      );
-    } else {
-      cancelAnimationFrame(c);
-    }
-  }
-}
 
 function $(args) {
   // return {
