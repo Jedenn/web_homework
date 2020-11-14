@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        //1. this总是指向一个对象，但具体指向哪个对象，是在运行时基于函数的执行环境动态绑定的，而非函数被声明时的环境
+        // 对象的方法中调用this：this指向该对象
+        // 普通函数中调用this：在非严格模式下，this指向全局对象（浏览器中该全局对象对window对象），在严格模式下为undefined
+        // 构造器中调用this：使用new运算符调用构造函数时，该函数隐式返回一个对象，构造器中的this就指向返回的对象；如果构造器显式返回一个对象，this就不指向返回的对象
+
+
+        // 2. call: 第一个参数是函数体内的this指向，后面有不定数量个参数都是函数的参数
+
+        // 3. apply: 第一个参数是函数体内的this指向，第二个参数是函数的参数数组。this传入为null时，非严格模式下，this会是全局对象（浏览器环境下为window对象）
+
+        // 4. bind: Function.prototype.bind返回一个新的函数
+
+        // 用途：
+            // 1. 改变this指向
+            // 2. 借用其他对象的方法：Array.prototype.push.call(arguments, 3)
+
+        function fn(){
+            console.log(arguments);
+            // 借用其他对象的方法，对操作类数组arguments
+            Array.prototype.push.call(arguments, "新加入的参数");
+            console.log(arguments);
+
+            let firstArgument =  Array.prototype.shift.call(arguments); // 将类数组的第一个参数移除并返回
+            let remainArguments = Array.prototype.slice.call(arguments); // 将类数组第一个参数后面的参数作为数组返回
+            console.log(firstArgument);
+            console.log(remainArguments);
+        }
+        fn('a','b',1,2);
+    </script>
+</body>
+</html>

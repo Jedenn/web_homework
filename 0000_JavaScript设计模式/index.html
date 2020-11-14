@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        function Person(name){
+            this.name = name;
+        }
+
+        Person.prototype.getName = function(){
+            return this.name;
+        }
+        Person.prototype.name = "djwang";
+
+        let person = new Person("hell");
+        let person2 = new Person("world");
+        console.log(person);
+        console.log(person2);
+    </script>
+</body>
+</html>

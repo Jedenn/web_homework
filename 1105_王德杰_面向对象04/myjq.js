@@ -103,17 +103,15 @@ class Jq {
     ele.style[styleName] = styleValue;
   }
 
-  // 对外调用的接口
   animate(...args) {
-    // 2. 具体实现动画的方法不作为接口暴露，因此使用对象外的Animation方法
     for (let i = 0; i < this.length; i++) {
       this[i].style.transition = "all 1s";
       if(typeof args[args.length-1] === "function"){
+        // 事件回调
         this[i].addEventListener("transitionend", args[args.length-1]);
       }
       for(let key in args[0]){
         this.setStyle(this[i], key, args[0][key]);
-
       }
     }
   }
