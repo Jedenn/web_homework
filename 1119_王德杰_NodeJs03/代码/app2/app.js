@@ -58,7 +58,7 @@ router.get('/:id(\\d*)', async ctx => {
     [items] = await query(sql, [categoryId]); 
     console.log(categories);
     console.log(items);  // 项目
-    
+
     // 2、通过后端模板引擎对数据和模板文件进行渲染，得到最终返回给前端的页面
     ctx.body = nunjucks.render('index.html', {
         categories,
@@ -71,7 +71,6 @@ router.get('/:id(\\d*)', async ctx => {
 // 通过get方式访问和返回一个添加新商品的页面
 router.get('/addItem', async ctx => {
     [categories] = await query('SELECT * FROM `categories`');
-
     ctx.body = nunjucks.render('addItem.html', {
         categories
     });
@@ -82,19 +81,41 @@ router.post('/addItem', koaBody(), async ctx => {
     // ctx.request.body => koaBody 中间件解析请求正文后数据存储的位置
     // console.log('数据', ctx.request.body);
     let {categoryId, name, price, cover} = ctx.request.body;
-
     // 对数据进行合法性验证
-
     // 验证通过，存储到数据库
     let [rs] = await query(
         "INSERT INTO `items` (`category_id`, `name`, `price`, `cover`) VALUES (?, ?, ?, ?)",
         [categoryId, name, price, cover]
     );
-    // console.log('rs', rs);
-
     ctx.body = '<p>添加成功</p><p><a href="/addItem">继续添加</a> | <a href="/">回到首页</a></p>';
 });
 
+router.get('/register', ctx=>{
+    ctx.body = nunjucks.render("register.html");
+})
+
+router.post('/register', koaBody(), async ctx=>{
+    let {username, password, repassword} = ctx.request.body;
+    let retMsg = "";
+    if(password !== repassword){
+        retMsg = "<h1>注册失败，两次输入密码不一致</h1>";
+    }else{
+        let [rs] = await query("insert into `users`(`username`,`password`) values(?,?)",
+        [username, password]);
+        console.log(rs);
+        if(rs.affectedRows===1){
+            retMsg = "<h1>注册成功<h1>";
+        }else{
+            retMsg = "<h1>注册失败<h1>";
+        }
+    }
+    ctx.body = retMsg;
+})
+
+
+router.get("/login", ctx=>{
+    ctx.body = nunjucks.render("login.html");
+})
 app.use(router.routes());
 
 
