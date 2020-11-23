@@ -13,7 +13,7 @@ const connection = mysql2.createConnection({
     host: 'localhost',
     user: 'root',
     password: '12345678',
-    database: 'kkb_13'
+    database: 'kkb'
 });
 
 const app = new Koa();
@@ -39,16 +39,12 @@ nunjucks.configure('./templates', {
 
 // 首页
 router.get('/:id(\\d*)', async ctx => {
-  
     let categories = [];
-  
     let categoryId = ctx.params.id;
-  
     let page = ctx.request.query.page;
     if (!page) {
         page = 1;
     }
-    
 
     let prepage = 8;
     let offset = (page - 1) * prepage;
@@ -57,7 +53,6 @@ router.get('/:id(\\d*)', async ctx => {
     let [[{count}]] = await query(sqlCount);
     let pages = Math.ceil((count / prepage));
     
-
     let sql = 'SELECT * FROM `items` limit '+ prepage +' offset ' + offset;
     if (categoryId) {
         sql = 'SELECT * FROM `items` where `category_id`=? limit 1 offset 1';
@@ -118,6 +113,28 @@ router.post('/addItem', koaBody({
     ctx.body = nunjucks.render('message.html', {
         categories,
         message: '<p>添加成功</p><p><a href="/addItem">继续添加</a> | <a href="/">回到首页</a></p>'
+    });
+});
+
+router.get('/upload', verify, async ctx=>{
+    ctx.body = nunjucks.render('upload.html',{
+        uid:ctx.state.uid
+    })
+});
+
+router.post('/upload', koaBody({
+    multipart: true,
+    formidable: {
+        uploadDir: './public/attachments',
+        keepExtensions: true
+    }
+}), async ctx=>{
+    let {base: attachment} = parsePath(ctx.request.files.attachment.path);
+    let {type, size} = ctx.request.files.attachment;
+    let [rs] = await query('insert into `attachments` (`filename`,`type`,`size`) values(?,?,?)',[attachment,type,size]);
+    ctx.body = nunjucks.render('message.html', {
+        uid: ctx.state.uid,
+        message: '<p>添加成功</p><p><a href="/upload">继续上传</a> | <a href="/">回到首页</a></p>'
     });
 });
 
