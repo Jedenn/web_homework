@@ -125,17 +125,29 @@ router.get('/upload', verify, async ctx=>{
 router.post('/upload', koaBody({
     multipart: true,
     formidable: {
-        uploadDir: './public/attachments',
+        uploadDir: './attachments',
         keepExtensions: true
     }
 }), async ctx=>{
-    let {base: attachment} = parsePath(ctx.request.files.attachment.path);
-    let {type, size} = ctx.request.files.attachment;
-    let [rs] = await query('insert into `attachments` (`filename`,`type`,`size`) values(?,?,?)',[attachment,type,size]);
-    ctx.body = nunjucks.render('message.html', {
-        uid: ctx.state.uid,
-        message: '<p>添加成功</p><p><a href="/upload">继续上传</a> | <a href="/">回到首页</a></p>'
-    });
+    let retPage = "";
+    try{
+        let {base: attachment} = parsePath(ctx.request.files.attachment.path);
+        let {type, size} = ctx.request.files.attachment;
+        let [rs] = await query('insert into `attachment` (`filename`,`type`,`size`) values(?,?,?)',[attachment,type,size]);
+        console.log(rs);
+        retPage = nunjucks.render('message.html', {
+            uid: ctx.state.uid,
+            message: '<p>添加成功</p><p><a href="/upload">继续上传</a> | <a href="/">回到首页</a></p>'
+        });
+    }catch(err){
+        console.log(err);
+        retPage = nunjucks.render('message.html', {
+            uid: ctx.state.uid,
+            message: '<p>添加失败</p><p><a href="/upload">继续上传</a> | <a href="/">回到首页</a></p>'
+        });
+        
+    }
+    ctx.body = retPage;
 });
 
 
