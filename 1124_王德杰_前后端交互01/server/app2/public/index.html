@@ -144,6 +144,21 @@
 <body>
 
 <header>
+
+	<div id="login">
+        <p>
+            用户名：<input type="text" id="username">
+        </p>
+        <p>
+            密码：<input type="password" id="password">
+        </p>
+        <p>
+			<button id="loginBtn">登录</button>
+			<p id="loginFeedBack">是否登录成功</p>
+        </p>
+	</div>
+
+
 	<button class="btn">上传</button>
 	<input type="file" id="attachment" style="display: none;">
 </header>
@@ -155,35 +170,14 @@
 <div class="task_panel" style="display: none;">
 	<div class="task_header">
 		<h4>当前任务：1/1</h4>
-
 		<span class="icon all-close"></span>
 	</div>
 	<ul class="task_body">
-		<!-- <li>
-			<span>任务一</span>
-			<div class="task-progress-status">
-				上传中……
-			</div>
-			<div class="progress"></div>
-		</li> -->
-		<!-- <li>
-			<span>任务二</span>
-			<div class="task-progress-status">
-				<span class="icon task-progress-status-success"></span>
-			</div>
-			<div class="progress"></div>
-		</li>
-		<li>
-			<span>任务三</span>
-			<div class="task-progress-status">
-				<span class="icon task-progress-status-success"></span>
-			</div>
-			<div class="progress"></div>
-		</li> -->
 	</ul>
 </div>
 
 <script src="/public/js/index.js"></script>
+
 
 </body>
 </html>
