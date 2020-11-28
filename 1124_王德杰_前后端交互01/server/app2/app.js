@@ -116,7 +116,7 @@ router.get("/getPhotos", async (ctx) => {
   console.log(authorizationData);
   if (authorizationData) {
     let token = authorizationData.split(" ")[1]; // 报文头的格式是[Bearer ***]
-    let userInfo = jsonwebtoken.verify(token, secret); // 验证不通过会抛出异常
+    let userInfo = jsonwebtoken.verify(token, secret); // 验证不通过会抛出异常, jwt中间件会自动返回状态码401
     console.log(userInfo.id);
     console.log(userInfo);
     if (userInfo.id) {

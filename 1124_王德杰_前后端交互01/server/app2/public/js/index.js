@@ -1,7 +1,6 @@
 window.onload = function () {
-  registerLoginEvent();
+  registerLoginEvent(); // 注册登录事件，登录成功后调用getPhotoData方法通过ajax获取用户照片
   registerSaveEvent(); // 注册上传图片事件
-
 };
 
 /**

@@ -34,11 +34,7 @@ router.post('/upload', KoaBody({
         keepExtensions: true
     }
 }), async ctx => {
-
-    // 把上传的文件相关的数据记录保存到数据库指定表中
     let attachment = ctx.request.files.attachment;
-
-    // 文件名解析
     let {base: filename} = parsePath(attachment.path);
     let {type, size} = attachment;
 
