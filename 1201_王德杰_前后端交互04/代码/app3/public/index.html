@@ -48,7 +48,9 @@
                 let li = document.createElement('li');
                 li.innerHTML = `
                     <strong>${data.id}</strong>
+                    <span>${data.dateTime}</span>
                     <span>${data.message}</span>
+
                 `;
                 
                 messagesElement.appendChild(li);

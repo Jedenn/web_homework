@@ -3,6 +3,7 @@ const Koa = require('koa');
 const KoaStaticCache = require('koa-static-cache');
 const KoaRouter = require('koa-router');
 const ioServer = require('socket.io');
+const date = require("silly-datetime");
 
 const app = new Koa();
 
@@ -48,6 +49,7 @@ io.on('connection', socket => {
 
         let chatData = {
             id: socket.id,
+            dateTime: date.format(new Date(), "YYYY:MM:DD hh:mm:ss"),
             ...data
         }
         // 这个是发送给指定的socket
