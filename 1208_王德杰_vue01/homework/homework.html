@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button @click="increaseCount">点击count加1</button>
+    <div>
+        当前count值为：{{count}} <br>
+        当前double值为：{{double}}
+    </div>
+</div>
+<script>
+
+
+    const app = new Vue({
+        el: "#app",
+        data:{
+            count:0
+        },
+        methods:{
+            increaseCount(){
+                this.count++;
+            }
+        },
+
+        computed:{
+            double(){
+                return this.count * 2;
+            }
+        }
+    })
+</script>
+</body>
+</html>
