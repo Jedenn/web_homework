@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="handleClick"><slot>按钮</slot></button>
+    <button id="btn" @click="handleClick"><slot>按钮</slot></button>
   </div>
 </template>
 
