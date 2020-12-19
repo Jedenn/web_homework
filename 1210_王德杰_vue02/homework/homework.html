@@ -18,31 +18,31 @@
 <script>
 
     let PhotoItem = {
-        props:{
-            url:String
+        props: {
+            url: String
         },
-        data(){
-          return {
-              styleObject:{
-                  backgroundColor: "rgb(143, 163, 167)",
-                  width: "251px",
-                  height: "186.258px"
-              }
-          }
+        data() {
+            return {
+                styleObject: {
+                    backgroundColor: "rgb(143, 163, 167)",
+                    width: "251px",
+                    height: "186.258px"
+                }
+            }
         },
         template: `<img v-bind:src="url" :style="styleObject"/>`
     }
 
     const app = new Vue({
         el: "#app",
-        components:{
-           photoItem: PhotoItem
+        components: {
+            photoItem: PhotoItem
         },
-        data:{
-            imgs:[
-               "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1794858060,52047681&fm=26&gp=0.jpg",
-               "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3955711481,429723775&fm=26&gp=0.jpg",
-               "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3167357782,4201080293&fm=26&gp=0.jpg"
+        data: {
+            imgs: [
+                "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1794858060,52047681&fm=26&gp=0.jpg",
+                "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3955711481,429723775&fm=26&gp=0.jpg",
+                "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3167357782,4201080293&fm=26&gp=0.jpg"
             ]
         },
     })

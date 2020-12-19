@@ -9,16 +9,16 @@
   <body>
     <div id="app">
       {{count}}
-      <!-- <button @click="handleClick">click</button> -->
       <button @click.once="count++">click</button>
-      <!-- <button @click="handleClick(1,$event)">click</button> -->
     </div>
     <script>
       // v-on 处理事件的
       // 简写 @
       // . 修饰符
-      const app = new Vue({
-        el: "#app",
+      // 修饰符有哪些？ 1. once 2. prevent 3.
+
+          const app = new Vue({
+                el: "#app",
         data: {
           msg: "hello world",
           count: 1,
