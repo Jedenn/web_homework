@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce82e33-870a-44a9-89c9-d75abf744892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web_homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1219_王德杰_vue06/总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/homework.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/learn-rectivity/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/learn-rectivity/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/learn-rectivity/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/learn-rectivity/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/end_page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/logo copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/plane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/restartBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/startBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/assets/start_page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/components/Bullet.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/components/EnemyPlane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/components/Map.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/components/Plane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/game/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/pages/EndPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/pages/GamePage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/pages/StartPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/runtime-canvas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/code/play-plane/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/courseware/resource/vue3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1226_王德杰_vue3_3/courseware/vue09.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/homework.md" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/homework.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/Bar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/Bar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/Foo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/Foo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/MoveMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/MoveMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/One.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/One.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/Setup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/Setup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/components/useMove.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/components/useMove.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-composition-api/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-composition-api/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/components/Foo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/components/Foo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/components/ModalButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/components/ModalButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-teleport/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-teleport/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/learn-vue3/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/learn-vue3/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/code/vue2-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/code/vue2-demo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1222_王德杰_vue07/courceware/vue07.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/1222_王德杰_vue3_1/courceware/vue07.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +114,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1226_王德杰_vue3_3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1226_王德杰_vue3_3" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,6 +140,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608563334696</updated>
       <workItem from="1608563336068" duration="6780000" />
+      <workItem from="1609002921175" duration="642000" />
+      <workItem from="1609035532766" duration="4451000" />
+      <workItem from="1609254812227" duration="302000" />
     </task>
     <servers />
   </component>
@@ -58,5 +159,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
