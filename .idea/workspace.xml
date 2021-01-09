@@ -5,9 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ce82e33-870a-44a9-89c9-d75abf744892" name="Default Changelist" comment="1229作业初始化">
-      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/1-初始React.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/2-基于React的视图构建.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/3-JSX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/4-JSX中的插值表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/5-JSX中的特殊属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/js/babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/js/react-dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/js/react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - JSX注意事项/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - JSX说明/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 事件的this处理/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 事件的this处理/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 列表输出/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 初识类组件/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 初识类组件/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src - 条件输出/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/src/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/myapp/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/多列下拉菜单/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/多列下拉菜单/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/好友列表 - 练习/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/courseware/code/好友列表 - 练习/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/homework/src/FriendGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/homework/src/FriendList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0105_王德杰_react01/homework/src/friendlist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - setState/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - setState/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 练习讲解/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 练习讲解/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 练习讲解/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 练习讲解/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 练习讲解/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 组件间通信/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 组件间通信/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 组件间通信/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 组件间通信/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 组件间通信/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 跨组件通信/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 跨组件通信/Child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 跨组件通信/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 跨组件通信/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src - 跨组件通信/subChild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/addTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/src/todoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/courseware/myapp/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/homework/src/components/addMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/homework/src/components/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0107_王德杰_react02/homework/src/components/messageList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/core/h.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/core/reactivity/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/core/renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/code/mini-vue/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/1229_王德杰_vue3_4/homework/todo-list/src/components/TodoList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +116,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1226_王德杰_vue3_3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/0107_王德杰_react02" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,7 +129,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0107_王德杰_react02" />
+      <recent name="$PROJECT_DIR$/0105_王德杰_react01/courseware/code" />
+      <recent name="$PROJECT_DIR$/0105_王德杰_react01/courseware" />
+      <recent name="$PROJECT_DIR$/1229_王德杰_vue3_4/code" />
       <recent name="$PROJECT_DIR$/1226_王德杰_vue3_3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/0107_王德杰_react02/homework/src/components" />
+      <recent name="$PROJECT_DIR$/0107_王德杰_react02/courseware" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +151,8 @@
       <workItem from="1608563336068" duration="6780000" />
       <workItem from="1609002921175" duration="642000" />
       <workItem from="1609035532766" duration="4451000" />
-      <workItem from="1609254812227" duration="9243000" />
+      <workItem from="1609254812227" duration="10657000" />
+      <workItem from="1609946976936" duration="15434000" />
     </task>
     <task id="LOCAL-00001" summary="1229作业初始化">
       <created>1609255368426</created>
@@ -64,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609255368427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1229作业初始化">
+      <created>1609343345548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609343345548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

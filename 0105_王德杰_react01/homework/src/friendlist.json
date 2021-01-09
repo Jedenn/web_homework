@@ -1,0 +1,16 @@
+[
+  {
+    "groupName": "家人",
+    "groupList": ["爸爸", "妈妈"]
+  },
+
+  {
+    "groupName": "朋友",
+    "groupList": ["张三", "李四", "王五"]
+  },
+
+  {
+    "groupName": "客户",
+    "groupList": ["阿里", "腾讯", "头条"]
+  }
+]

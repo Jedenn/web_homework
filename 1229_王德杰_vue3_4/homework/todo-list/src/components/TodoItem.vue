@@ -4,7 +4,7 @@
       style="display:inline"
       v-bind:class="{ done: item.state === 'complete' }"
     >
-      {{ item.id }}--{{ item.state }}- {{ item.title }}
+      {{ item.title }}
     </div>
     <el-button @click="remove">删除</el-button>
     <el-button @click="done">完成</el-button>

@@ -45,6 +45,7 @@ export default {
         title: title,
         state: "active"
       });
+      newTodoTitle.value = "";
     };
 
     return {
